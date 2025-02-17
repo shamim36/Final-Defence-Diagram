@@ -136,7 +136,7 @@
             <mxPoint x="800" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5WP1wugaEQEnVHBX-fIG-72" value="Users" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="5WP1wugaEQEnVHBX-fIG-72" value="&lt;b&gt;Users&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="560" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5WP1wugaEQEnVHBX-fIG-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5WP1wugaEQEnVHBX-fIG-72" target="5WP1wugaEQEnVHBX-fIG-18" edge="1">
