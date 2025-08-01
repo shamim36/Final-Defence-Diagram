@@ -355,7 +355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="owle5eozlmrB5Mjx3vYx" name="Reset Password">
-    <mxGraphModel dx="1782" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2528" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -411,7 +411,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-14" value="if not exist" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-14" value="if not valid" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="-150" y="260" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
@@ -426,77 +426,32 @@
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-65" y="280" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-19" value="if exists" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-19" value="if valid" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="-150" y="380" width="650" height="540" as="geometry" />
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="235" y="410" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-23" value="7. Send Verification Code" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="1OdvnmVNeL-Y6dPK-Hib-21" target="1OdvnmVNeL-Y6dPK-Hib-24" edge="1">
+        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-23" value="7. Send Reset password mail successfull" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" source="1OdvnmVNeL-Y6dPK-Hib-21" target="1OdvnmVNeL-Y6dPK-Hib-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="430" as="sourcePoint" />
             <mxPoint x="100" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-65" y="410" width="10" height="90" as="geometry" />
+          <mxGeometry x="-65" y="410" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-32" value="8. Enter verification code" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="1OdvnmVNeL-Y6dPK-Hib-33" edge="1">
+        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-32" value="8. Click on Reset Password&lt;div&gt;Link&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="1OdvnmVNeL-Y6dPK-Hib-33" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-55" y="485" as="sourcePoint" />
             <mxPoint x="50" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="85" y="460" width="10" height="60" as="geometry" />
+          <mxGeometry x="85" y="485" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="235" y="460" width="10" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-35" value="9. Validate code" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="95" y="500" as="sourcePoint" />
-            <mxPoint x="235" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-37" value="10. check code validaty" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="245" y="515" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="275" y="545" />
-            </Array>
-            <mxPoint x="250" y="545" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-38" value="if not valid" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="570" width="430" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="235" y="575" width="10" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-65" y="580" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-47" value="if valid" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="670" width="610" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="235" y="680" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-65" y="680" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-51" value="12. Message: &quot;Code verification successful&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="1OdvnmVNeL-Y6dPK-Hib-50" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="710" as="sourcePoint" />
-            <mxPoint x="95" y="710" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1OdvnmVNeL-Y6dPK-Hib-52" value="11. Message: &quot;Code is not Valid&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="1OdvnmVNeL-Y6dPK-Hib-39" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="30" y="610" as="sourcePoint" />
-            <mxPoint x="-50" y="610" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="235" y="460" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="85" y="720" width="10" height="130" as="geometry" />
@@ -517,7 +472,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-65" y="780" width="10" height="100" as="geometry" />
+          <mxGeometry x="-65" y="730" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-58" value="15. Password update&lt;div&gt;success&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -537,22 +492,22 @@
         <mxCell id="1OdvnmVNeL-Y6dPK-Hib-60" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" parent="1" vertex="1">
           <mxGeometry x="-75" y="970" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XK3uHFcli39hlxMZltCq-1" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="XK3uHFcli39hlxMZltCq-1" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="410" y="40" width="100" height="950" as="geometry" />
         </mxCell>
-        <mxCell id="XK3uHFcli39hlxMZltCq-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XK3uHFcli39hlxMZltCq-1">
+        <mxCell id="XK3uHFcli39hlxMZltCq-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="XK3uHFcli39hlxMZltCq-1" vertex="1">
           <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XIld4I0GCkN8t1RrMkhM-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XK3uHFcli39hlxMZltCq-1">
+        <mxCell id="XIld4I0GCkN8t1RrMkhM-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="XK3uHFcli39hlxMZltCq-1" vertex="1">
           <mxGeometry x="45" y="770" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XK3uHFcli39hlxMZltCq-3" value="3. Request for email existence" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="XK3uHFcli39hlxMZltCq-1">
+        <mxCell id="XK3uHFcli39hlxMZltCq-3" value="3. Request for email existence" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="XK3uHFcli39hlxMZltCq-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="245" y="170" as="sourcePoint" />
             <mxPoint x="389.5" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XK3uHFcli39hlxMZltCq-4" value="4. return data&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="XK3uHFcli39hlxMZltCq-1" target="22dnvHCdlSMQWcHBHHIa-3">
+        <mxCell id="XK3uHFcli39hlxMZltCq-4" value="4. return data&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="XK3uHFcli39hlxMZltCq-1" target="22dnvHCdlSMQWcHBHHIa-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="200" as="sourcePoint" />
             <mxPoint x="280" y="200" as="targetPoint" />
@@ -561,10 +516,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XK3uHFcli39hlxMZltCq-5" value="17. Update user data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="XK3uHFcli39hlxMZltCq-1">
+        <mxCell id="XK3uHFcli39hlxMZltCq-5" value="17. Update user data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="XK3uHFcli39hlxMZltCq-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-50" y="870" as="sourcePoint" />
             <mxPoint x="90" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yz-KRzIcWVI4aeihj9oU-1" value="9. Request for reset&amp;nbsp;&lt;div&gt;password page&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90.5" y="514.4100000000001" as="sourcePoint" />
+            <mxPoint x="235" y="514.4100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yz-KRzIcWVI4aeihj9oU-2" value="10. Display reset password screen" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="570" as="sourcePoint" />
+            <mxPoint x="-55" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
