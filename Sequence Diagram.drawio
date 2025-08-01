@@ -1541,7 +1541,7 @@
         <mxCell id="ui8uo2lWr4-CRllY8E8M-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-60" y="730" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ui8uo2lWr4-CRllY8E8M-8" value="6. Display own&lt;div&gt;submission data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="ui8uo2lWr4-CRllY8E8M-8" value="6. Display show&lt;div&gt;submission data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="89.5" y="780" as="sourcePoint" />
             <mxPoint x="-50" y="780" as="targetPoint" />
