@@ -46,7 +46,7 @@
         <mxCell id="R9w4oZn1IZ1u9DNi2aI7-17" value="&lt;b&gt;View Submissions&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="700" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R9w4oZn1IZ1u9DNi2aI7-18" value="&lt;b&gt;Create Problem Statement&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="R9w4oZn1IZ1u9DNi2aI7-18" value="&lt;b&gt;Manage Problem Statement&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="820" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R9w4oZn1IZ1u9DNi2aI7-19" value="&lt;b&gt;View Problem Statements&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
