@@ -742,9 +742,6 @@
             <mxPoint x="320" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tEVu9YPYpCL0OBFGtub9-7" value="" style="strokeWidth=3;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;sketch=0;fillStyle=solid;pointerEvents=1;strokeColor=light-dark(#FF0000,#EDEDED);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=1;fillColor=#000000;recursiveResize=1;resizeWidth=1;resizeHeight=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="430" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="tEVu9YPYpCL0OBFGtub9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=0;" parent="1" source="tEVu9YPYpCL0OBFGtub9-9" target="tEVu9YPYpCL0OBFGtub9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -767,11 +764,14 @@
         <mxCell id="tEVu9YPYpCL0OBFGtub9-11" value="Display error message" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="260" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yMge2dg_QM5HclbbDSmg-11" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="tEVu9YPYpCL0OBFGtub9-7" edge="1">
+        <mxCell id="yMge2dg_QM5HclbbDSmg-11" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;resizable=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="-10ESeTAqD1RXz9PFXxS-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="400" as="sourcePoint" />
-            <mxPoint x="120" y="470" as="targetPoint" />
+            <mxPoint x="225" y="400" as="sourcePoint" />
+            <mxPoint x="230" y="430" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-10ESeTAqD1RXz9PFXxS-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
